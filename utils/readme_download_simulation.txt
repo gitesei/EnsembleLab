@@ -11,3 +11,4 @@ SIMULATION/ contains the results of the CALVADOS2 simulation of the provided seq
 - hist_rh.dat: probability distribution function of the Rh from the MD simulation
 - hist_dee.dat: probability distribution function of the end-to-end distance from the MD simulation
 - Rij.dat: scaling profile (average distance for each pair of residue |i-j| apart)
+- frame1-10.pdb: 10 frames extracted from the all-atom trajectory, equally distributed in Rg space
