@@ -1,14 +1,12 @@
-SIMULATION/ contains the results of the CALVADOS2 simulation of the provided sequence
+SIMULATION/ contains the results of the CALVADOS simulation of the provided sequence
 - seq.fasta: user-provided IDP sequence
 - env_settings.txt: user-chosen settings for MD (temperature, ionic strength, pH)
 - top.pdb: pdb representative of the topology of the coarse-grained model
-- traj.dcd: centered and PBC-solved trajectory of the coarse-grained MD simulation (visualization with ChimeraX is recommended)
+- traj.dcd: centered and PBC-solved trajectory of the coarse-grained MD simulation
 - top_AA.pdb: pdb representative of the topology of the all-atom model
 - traj_AA.dcd: centered and PBC-solved trajectory of the MD simulations converted to all-atom. NB: steric clashes might be present and interactions involving side-chains should not be trusted.
 - traj.log: log file of the MD simulation
-- observables.dat: ensemble averaged structural parameters calculated from the MD simulation, Dmax and scaling exponent (nu)
-- hist_rg.dat: probability distribution function of the Rg from the MD simulation
-- hist_rh.dat: probability distribution function of the Rh from the MD simulation
-- hist_dee.dat: probability distribution function of the end-to-end distance from the MD simulation
-- Rij.dat: scaling profile (average distance for each pair of residue |i-j| apart)
-- frame1-10.pdb: 10 frames extracted from the all-atom trajectory, equally distributed in Rg space
+- conf_properties.csv: ensemble averaged conformational properties calculated from the MD simulation
+- energy_map.csv: energy maps calculated using the non-ionic Ashbaugh-Hatch potential of the CALVADOS model
+- time_series_Rg_Ree_Delta_S.csv: time series of Rg, Ree, Delta, and S
+- scaling_profile.csv: scaling profile (average distance for each pair of residue |i-j| apart)
