@@ -10,3 +10,5 @@ aSyn,"20 mM Na2HPO4/NaH2PO4 (pH 7.4), 150 mM NaCl, 2% glycerol",293,200
 ANAC046,"20 mM Na2HPO4/NaH2PO4 (pH 7.0), 100 mM NaCl, 5 mM DTT",298,140
 GHR-ICD,"20 mM Na2HPO4/NaH2PO4 (pH 7.3), 300 mM NaCl, 10x excess of DTT, 2% glycerol",298,350
 Tau,"137 mM NaCl, 3 mM KCl, 10 mM Na2HPO4/NaH2PO4 (pH 7.4), 2 mM KH2PO4, and 1 mM DTT",288,170
+NLS,"HEPES 25 mM pH=7.4, NaCl 150 mM, DTT 10 mM",296,150
+IBB,"PBS pH=7.4 and 10 mM DTT",296,150
