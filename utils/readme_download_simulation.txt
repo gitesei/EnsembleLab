@@ -2,7 +2,7 @@ SIMULATION/ contains the results of the CALVADOS simulation of the provided sequ
 - seq.fasta: user-provided IDP sequence
 - env_settings.txt: user-chosen settings for MD (temperature, ionic strength, pH)
 - top.pdb: pdb representative of the topology of the coarse-grained model
-- traj.dcd: centered and PBC-solved trajectory of the coarse-grained MD simulation
+- traj.xtc: centered and PBC-solved trajectory of the coarse-grained MD simulation
 - top_AA.pdb: pdb representative of the topology of the all-atom model
 - traj_AA.dcd: centered and PBC-solved trajectory of the MD simulations converted to all-atom. NB: steric clashes might be present and interactions involving side-chains should not be trusted.
 - traj.log: log file of the MD simulation
